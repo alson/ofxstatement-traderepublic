@@ -1,0 +1,1759 @@
+[
+  {
+    "id": "06640c3e-7168-46d8-bcae-046bb4835d6b",
+    "timestamp": "2025-02-20T00:00:00.000+0000",
+    "title": "Auszahlungskonto",
+    "icon": "logos/timeline_bank/v2",
+    "subtitle": "Geändert",
+    "action": null,
+    "eventType": "REFERENCE_ACCOUNT_CHANGED",
+    "source": "timelineActivity"
+  },
+  {
+    "id": "8f621703-69d7-432a-847b-143bc25f17ac",
+    "timestamp": "2025-02-21T00:00:00.000+0000",
+    "title": "Neues Gerät",
+    "icon": "logos/timeline_computers/v2",
+    "subtitle": "Gekoppelt",
+    "action": null,
+    "eventType": "DEVICE_RESET",
+    "source": "timelineActivity"
+  },
+  {
+    "id": "50d1566e-ff8f-49bb-8507-91af9efb8594",
+    "timestamp": "2025-02-22T00:00:00.000+0000",
+    "title": "PUK versendet",
+    "icon": "logos/timeline_lock/v2",
+    "subtitle": "Kommt in 2 Tagen",
+    "action": null,
+    "eventType": "PUK_CREATED",
+    "source": "timelineActivity"
+  },
+  {
+    "id": "9e7d8f26-e309-4083-9fff-56d4126f9bfe",
+    "timestamp": "2025-02-23T00:00:00.000+0000",
+    "title": "E-Mail",
+    "icon": "logos/timeline_email/v2",
+    "subtitle": "Bestätigt",
+    "action": null,
+    "eventType": "EMAIL_VALIDATED",
+    "source": "timelineActivity"
+  },
+  {
+    "id": "456b2490-4e13-4116-9ece-47542b57681f",
+    "timestamp": "2025-02-24T00:00:00.000+0000",
+    "title": "Basisinformationen",
+    "icon": "logos/timeline_document/v2",
+    "subtitle": "Erhalten",
+    "action": {
+      "type": "browserModal",
+      "payload": "https://support.traderepublic.com/de-de/"
+    },
+    "eventType": "CUSTOMER_CREATED",
+    "source": "timelineActivity"
+  },
+  {
+    "id": "6cbdb717-6b7a-43dc-a0f7-2d0d94857e61",
+    "timestamp": "2025-02-25T00:00:00.000+0000",
+    "title": "Wertpapierdepot",
+    "icon": "logos/timeline_stocks/v2",
+    "subtitle": "Eröffnet",
+    "action": null,
+    "eventType": "SECURITIES_ACCOUNT_CREATED",
+    "source": "timelineActivity"
+  },
+  {
+    "id": "4b010843-ea93-47cb-9008-01a7bece870e",
+    "timestamp": "2025-02-25T00:00:00.000+0000",
+    "title": "Jane Doe",
+    "icon": "logos/timeline_plus_circle/v2",
+    "badge": null,
+    "subtitle": null,
+    "amount": {
+      "currency": "EUR",
+      "value": 100.0,
+      "fractionDigits": 2
+    },
+    "subAmount": null,
+    "status": "EXECUTED",
+    "action": {
+      "type": "timelineDetail",
+      "payload": "4b010843-ea93-47cb-9008-01a7bece870e"
+    },
+    "eventType": "PAYMENT_INBOUND",
+    "cashAccountNumber": null,
+    "hidden": false,
+    "deleted": false,
+    "source": "timelineTransaction",
+    "details": {
+      "id": "4b010843-ea93-47cb-9008-01a7bece870e",
+      "sections": [
+        {
+          "title": "Du hast 100,00 € erhalten",
+          "data": {
+            "icon": "logos/timeline_plus_circle/v2",
+            "subtitleText": null,
+            "timestamp": "2025-02-20T00:00:00.000+0000",
+            "status": "executed"
+          },
+          "action": null,
+          "type": "header"
+        },
+        {
+          "title": "Übersicht",
+          "data": [
+            {
+              "title": "Status",
+              "detail": {
+                "text": "Abgeschlossen",
+                "functionalStyle": "EXECUTED",
+                "type": "status"
+              },
+              "style": "plain"
+            },
+            {
+              "title": "Von",
+              "detail": {
+                "text": "Jane Doe",
+                "trend": null,
+                "action": null,
+                "displayValue": null,
+                "type": "text"
+              },
+              "style": "plain"
+            },
+            {
+              "title": "IBAN",
+              "detail": {
+                "text": "DE89 3704 0044 0532 0130 00",
+                "trend": null,
+                "action": null,
+                "displayValue": null,
+                "type": "text"
+              },
+              "style": "plain"
+            }
+          ],
+          "action": null,
+          "type": "table"
+        },
+        {
+          "title": "",
+          "data": [
+            {
+              "title": "",
+              "detail": {
+                "icon": "",
+                "action": {
+                  "type": "customerSupportChat",
+                  "payload": {
+                    "contextParams": {
+                      "chat_flow_key": "NHC_0024_deposit_report_an_issue",
+                      "timelineEventId": "4b010843-ea93-47cb-9008-01a7bece870e",
+                      "createdAt": "2025-02-20T00:00:00.0000000Z",
+                      "amount": "100.000000",
+                      "iban": "DE89370400440532013000"
+                    },
+                    "contextCategory": "NHC"
+                  }
+                },
+                "style": "highlighted",
+                "type": "listItemAvatarDefault"
+              },
+              "style": "plain"
+            }
+          ],
+          "action": null,
+          "type": "table"
+        }
+      ]
+    },
+    "has_docs": false
+  },
+  {
+    "id": "91db87d3-1fbf-496e-bd56-50db0df540af",
+    "timestamp": "2025-02-26T00:00:00.000+0000",
+    "title": "Merchant P",
+    "icon": "logos/merchant-beb91b75-6fa8-4392-977b-e7c6f76f4b02/v2",
+    "badge": null,
+    "subtitle": "Kartenprüfung",
+    "amount": {
+      "currency": "EUR",
+      "value": 0.0,
+      "fractionDigits": 2
+    },
+    "subAmount": null,
+    "status": "EXECUTED",
+    "action": {
+      "type": "timelineDetail",
+      "payload": "91db87d3-1fbf-496e-bd56-50db0df540af"
+    },
+    "eventType": "card_successful_verification",
+    "cashAccountNumber": null,
+    "hidden": false,
+    "deleted": false,
+    "source": "timelineTransaction",
+    "details": {
+      "id": "91db87d3-1fbf-496e-bd56-50db0df540af",
+      "sections": [
+        {
+          "title": "Deine Karte wurde verifiziert",
+          "data": {
+            "icon": "logos/merchant-beb91b75-6fa8-4392-977b-e7c6f76f4b02/v2",
+            "timestamp": "2025-02-20T00:00:00.000+0000",
+            "status": "executed"
+          },
+          "type": "header"
+        },
+        {
+          "title": "Kartenprüfung",
+          "description": "Der Händler hat deine Karte überprüft. Dir wurde keine Gebühr berechnet.",
+          "type": "banner"
+        },
+        {
+          "title": "Übersicht",
+          "data": [
+            {
+              "title": "Status",
+              "detail": {
+                "text": "Verifiziert",
+                "functionalStyle": "EXECUTED",
+                "type": "status"
+              },
+              "style": "plain"
+            },
+            {
+              "title": "Zahlung",
+              "detail": {
+                "icon": "logos/bank_traderepublic/v2",
+                "text": "··1234",
+                "type": "iconWithText"
+              },
+              "style": "plain"
+            },
+            {
+              "title": "Händler",
+              "detail": {
+                "text": "Merchant P",
+                "type": "text"
+              },
+              "style": "plain"
+            }
+          ],
+          "type": "table"
+        },
+        {
+          "title": "Hilfe",
+          "data": [
+            {
+              "title": "Problem melden",
+              "detail": {
+                "icon": "logos/timeline_communication/v2",
+                "action": {
+                  "payload": {
+                    "transactionId": "91db87d3-1fbf-496e-bd56-50db0df540af",
+                    "contextCategory": "NHC",
+                    "contextParams": {
+                      "chat_flow_key": "NHC_0032_report_an_issue_card_transaction",
+                      "card-dispute-txId": "91db87d3-1fbf-496e-bd56-50db0df540af"
+                    }
+                  },
+                  "type": "customerSupportChat"
+                },
+                "type": "listItemAvatarDefault"
+              },
+              "style": "highlighted"
+            }
+          ],
+          "type": "table"
+        }
+      ]
+    },
+    "has_docs": false
+  },
+  {
+    "id": "85d0032b-3386-4c37-b623-316756086b56",
+    "timestamp": "2025-02-27T00:00:00.000+0000",
+    "title": "Merchant P",
+    "icon": "logos/merchant-beb91b75-6fa8-4392-977b-e7c6f76f4b02/v2",
+    "badge": null,
+    "subtitle": "Abgebrochen",
+    "amount": {
+      "currency": "EUR",
+      "value": -1.17,
+      "fractionDigits": 2
+    },
+    "subAmount": null,
+    "status": "CANCELED",
+    "action": {
+      "type": "timelineDetail",
+      "payload": "85d0032b-3386-4c37-b623-316756086b56"
+    },
+    "eventType": "card_failed_transaction",
+    "cashAccountNumber": null,
+    "hidden": false,
+    "deleted": false,
+    "source": "timelineTransaction",
+    "details": {
+      "id": "85d0032b-3386-4c37-b623-316756086b56",
+      "sections": [
+        {
+          "title": "Du hast 1,17 € ausgegeben",
+          "data": {
+            "icon": "logos/merchant-beb91b75-6fa8-4392-977b-e7c6f76f4b02/v2",
+            "timestamp": "2025-02-20T00:00:00.000+0000",
+            "status": "canceled"
+          },
+          "type": "header"
+        },
+        {
+          "title": "Abgebrochen",
+          "description": "Der Händler hat diese Transaktion abgebrochen. Dir wurde keine Gebühr berechnet.",
+          "type": "banner"
+        },
+        {
+          "title": "Übersicht",
+          "data": [
+            {
+              "title": "Status",
+              "detail": {
+                "text": "Abgebrochen",
+                "functionalStyle": "CANCELED",
+                "type": "status"
+              },
+              "style": "plain"
+            },
+            {
+              "title": "Zahlung",
+              "detail": {
+                "icon": "logos/bank_traderepublic/v2",
+                "text": "··1234",
+                "type": "iconWithText"
+              },
+              "style": "plain"
+            },
+            {
+              "title": "Händler",
+              "detail": {
+                "text": "Merchant P",
+                "type": "text"
+              },
+              "style": "plain"
+            }
+          ],
+          "type": "table"
+        },
+        {
+          "title": "Vorteile",
+          "data": [
+            {
+              "title": "MSCI USA USD (Acc)",
+              "detail": {
+                "title": "MSCI USA USD (Acc)",
+                "timestamp": "2025-02-20T00:00:00.000+0000",
+                "amount": "0,00 €",
+                "icon": "logos/IE0000000000/v2",
+                "status": "executed",
+                "action": {
+                  "type": "benefitsSavebackOverview"
+                },
+                "subtitle": "Kein Anspruch auf Saveback",
+                "type": "embeddedTimelineItem"
+              },
+              "style": "plain"
+            }
+          ],
+          "type": "table"
+        },
+        {
+          "title": "Hilfe",
+          "data": [
+            {
+              "title": "Problem melden",
+              "detail": {
+                "icon": "logos/timeline_communication/v2",
+                "action": {
+                  "payload": {
+                    "transactionId": "85d0032b-3386-4c37-b623-316756086b56",
+                    "contextCategory": "NHC",
+                    "contextParams": {
+                      "chat_flow_key": "NHC_0032_report_an_issue_card_transaction",
+                      "card-dispute-txId": "85d0032b-3386-4c37-b623-316756086b56"
+                    }
+                  },
+                  "type": "customerSupportChat"
+                },
+                "type": "listItemAvatarDefault"
+              },
+              "style": "highlighted"
+            }
+          ],
+          "type": "table"
+        }
+      ]
+    },
+    "has_docs": false
+  },
+  {
+    "id": "d3ff355b-bb7d-4414-835f-1d602bb52f96",
+    "timestamp": "2025-02-28T00:00:00.000+0000",
+    "title": "Merchant C",
+    "icon": "logos/merchant-b037bee7-36a7-468a-bf48-c476c9e0cfc5/v2",
+    "badge": null,
+    "subtitle": null,
+    "amount": {
+      "currency": "EUR",
+      "value": -50.0,
+      "fractionDigits": 2
+    },
+    "subAmount": null,
+    "status": "EXECUTED",
+    "action": {
+      "type": "timelineDetail",
+      "payload": "d3ff355b-bb7d-4414-835f-1d602bb52f96"
+    },
+    "eventType": "card_successful_transaction",
+    "cashAccountNumber": null,
+    "hidden": false,
+    "deleted": false,
+    "source": "timelineTransaction",
+    "details": {
+      "id": "d3ff355b-bb7d-4414-835f-1d602bb52f96",
+      "sections": [
+        {
+          "title": "Du hast 50,00 € ausgegeben",
+          "data": {
+            "icon": "logos/merchant-b037bee7-36a7-468a-bf48-c476c9e0cfc5/v2",
+            "timestamp": "2025-02-20T00:00:00.000+0000",
+            "status": "executed"
+          },
+          "type": "header"
+        },
+        {
+          "title": "Übersicht",
+          "data": [
+            {
+              "title": "Status",
+              "detail": {
+                "text": "Fertig",
+                "functionalStyle": "EXECUTED",
+                "type": "status"
+              },
+              "style": "plain"
+            },
+            {
+              "title": "Zahlung",
+              "detail": {
+                "icon": "logos/bank_traderepublic/v2",
+                "text": "··1234",
+                "type": "iconWithText"
+              },
+              "style": "plain"
+            },
+            {
+              "title": "Händler",
+              "detail": {
+                "text": "Merchant C",
+                "type": "text"
+              },
+              "style": "plain"
+            }
+          ],
+          "type": "table"
+        },
+        {
+          "title": "Vorteile",
+          "data": [
+            {
+              "title": "MSCI USA USD (Acc)",
+              "detail": {
+                "title": "MSCI USA USD (Acc)",
+                "timestamp": "2025-02-20T00:00:00.000+0000",
+                "amount": "0,50 €",
+                "icon": "logos/IE0000000000/v2",
+                "status": "executed",
+                "action": {
+                  "type": "benefitsSavebackOverview"
+                },
+                "subtitle": "Saveback",
+                "type": "embeddedTimelineItem"
+              },
+              "style": "plain"
+            }
+          ],
+          "type": "table"
+        },
+        {
+          "title": "Hilfe",
+          "data": [
+            {
+              "title": "Problem melden",
+              "detail": {
+                "icon": "logos/timeline_communication/v2",
+                "action": {
+                  "payload": {
+                    "id": "d3ff355b-bb7d-4414-835f-1d602bb52f96",
+                    "sections": [
+                      {
+                        "title": "Problem melden",
+                        "type": "title"
+                      },
+                      {
+                        "data": [
+                          {
+                            "title": "Diese Transaktion kommt mir nicht bekannt vor.",
+                            "detail": {
+                              "content": {
+                                "type": "default",
+                                "title": "Diese Transaktion kommt mir nicht bekannt vor.",
+                                "truncate": false
+                              },
+                              "trailing": {
+                                "type": "chevron"
+                              },
+                              "action": {
+                                "payload": {
+                                  "transactionId": "d3ff355b-bb7d-4414-835f-1d602bb52f96",
+                                  "timelineEventId": "d3ff355b-bb7d-4414-835f-1d602bb52f96",
+                                  "timelineEventTypes": [
+                                    "CARD_TRANSACTION",
+                                    "CARD_ATM_WITHDRAWAL",
+                                    "CARD_AFT",
+                                    "CARD_CASH_BACK"
+                                  ],
+                                  "cashAnalyticsCategories": [],
+                                  "chatAction": {
+                                    "payload": {
+                                      "transactionId": "d3ff355b-bb7d-4414-835f-1d602bb52f96",
+                                      "contextCategory": "NHC",
+                                      "contextParams": {
+                                        "chat_flow_key": "NHC_0034_card_report_fraud",
+                                        "card-dispute-txId": "d3ff355b-bb7d-4414-835f-1d602bb52f96"
+                                      }
+                                    },
+                                    "type": "customerSupportChat"
+                                  }
+                                },
+                                "type": "fraudDisputeFlow"
+                              },
+                              "type": "listItem"
+                            },
+                            "style": "plain"
+                          },
+                          {
+                            "title": "Ich habe nicht das bekommen, wofür ich bezahlt habe.",
+                            "detail": {
+                              "content": {
+                                "type": "default",
+                                "title": "Ich habe nicht das bekommen, wofür ich bezahlt habe.",
+                                "truncate": false
+                              },
+                              "trailing": {
+                                "type": "chevron"
+                              },
+                              "action": {
+                                "payload": {
+                                  "transactionId": "d3ff355b-bb7d-4414-835f-1d602bb52f96",
+                                  "contextCategory": "NHC",
+                                  "contextParams": {
+                                    "chat_flow_key": "NHC_0034_card_report_not_satisfied",
+                                    "card-dispute-txId": "d3ff355b-bb7d-4414-835f-1d602bb52f96"
+                                  }
+                                },
+                                "type": "customerSupportChat"
+                              },
+                              "type": "listItem"
+                            },
+                            "style": "plain"
+                          },
+                          {
+                            "title": "Ein falscher Betrag wurde abgerechnet.",
+                            "detail": {
+                              "content": {
+                                "type": "default",
+                                "title": "Ein falscher Betrag wurde abgerechnet.",
+                                "truncate": false
+                              },
+                              "trailing": {
+                                "type": "chevron"
+                              },
+                              "action": {
+                                "payload": {
+                                  "transactionId": "d3ff355b-bb7d-4414-835f-1d602bb52f96",
+                                  "contextCategory": "NHC",
+                                  "contextParams": {
+                                    "chat_flow_key": "NHC_0034_card_report_charged_incorrectly",
+                                    "card-dispute-txId": "d3ff355b-bb7d-4414-835f-1d602bb52f96"
+                                  }
+                                },
+                                "type": "customerSupportChat"
+                              },
+                              "type": "listItem"
+                            },
+                            "style": "plain"
+                          },
+                          {
+                            "title": "Etwas anderes",
+                            "detail": {
+                              "content": {
+                                "type": "default",
+                                "title": "Etwas anderes",
+                                "truncate": false
+                              },
+                              "trailing": {
+                                "type": "chevron"
+                              },
+                              "action": {
+                                "payload": {
+                                  "transactionId": "d3ff355b-bb7d-4414-835f-1d602bb52f96",
+                                  "contextCategory": "NHC",
+                                  "contextParams": {
+                                    "chat_flow_key": "NHC_0034_card_tx_something_else",
+                                    "card-dispute-txId": "d3ff355b-bb7d-4414-835f-1d602bb52f96"
+                                  }
+                                },
+                                "type": "customerSupportChat"
+                              },
+                              "type": "listItem"
+                            },
+                            "style": "plain"
+                          }
+                        ],
+                        "type": "table"
+                      }
+                    ]
+                  },
+                  "type": "infoPage"
+                },
+                "type": "listItemAvatarDefault"
+              },
+              "style": "highlighted"
+            }
+          ],
+          "type": "table"
+        }
+      ]
+    },
+    "has_docs": false
+  },
+  {
+    "id": "3cd9ec2a-a5a4-489a-9978-14e58f091f24",
+    "timestamp": "2025-03-01T00:00:00.000+0000",
+    "title": "Merchant F",
+    "icon": "logos/merchant-a54af2eb-7ff9-4611-8a4b-70e28b83d0a2/v2",
+    "badge": null,
+    "subtitle": null,
+    "amount": {
+      "currency": "EUR",
+      "value": 1.62,
+      "fractionDigits": 2
+    },
+    "subAmount": {
+      "currency": "USD",
+      "value": 1.7,
+      "fractionDigits": 2
+    },
+    "status": "EXECUTED",
+    "action": {
+      "type": "timelineDetail",
+      "payload": "fe6c48a0-cbc7-5618-b941-89153dddc338"
+    },
+    "eventType": "card_refund",
+    "cashAccountNumber": null,
+    "hidden": false,
+    "deleted": false,
+    "source": "timelineTransaction",
+    "details": {
+      "id": "fe6c48a0-cbc7-5618-b941-89153dddc338",
+      "sections": [
+        {
+          "title": "Du hast 1,62 € erhalten",
+          "data": {
+            "icon": "logos/merchant-a54af2eb-7ff9-4611-8a4b-70e28b83d0a2/v2",
+            "timestamp": "2025-02-20T00:00:00.000+0000",
+            "status": "executed"
+          },
+          "type": "header"
+        },
+        {
+          "title": "Übersicht",
+          "data": [
+            {
+              "title": "Status",
+              "detail": {
+                "text": "Fertig",
+                "functionalStyle": "EXECUTED",
+                "type": "status"
+              },
+              "style": "plain"
+            },
+            {
+              "title": "Zahlungsart",
+              "detail": {
+                "text": "Rückerstattung",
+                "type": "text"
+              },
+              "style": "plain"
+            },
+            {
+              "title": "Händler",
+              "detail": {
+                "text": "Merchant F",
+                "type": "text"
+              },
+              "style": "plain"
+            }
+          ],
+          "type": "table"
+        },
+        {
+          "title": "Transaktion",
+          "data": [
+            {
+              "title": "Betrag",
+              "detail": {
+                "text": "1,70 $",
+                "type": "text"
+              },
+              "style": "plain"
+            },
+            {
+              "title": "Wechselkurs",
+              "detail": {
+                "text": "1 $ zu 0,952941 €",
+                "type": "text"
+              },
+              "style": "plain"
+            },
+            {
+              "title": "Gesamt",
+              "detail": {
+                "text": "1,62 €",
+                "type": "text"
+              },
+              "style": "plain"
+            }
+          ],
+          "type": "table"
+        },
+        {
+          "title": "Hilfe",
+          "data": [
+            {
+              "title": "Problem melden",
+              "detail": {
+                "icon": "logos/timeline_communication/v2",
+                "action": {
+                  "payload": {
+                    "transactionId": "0d33a783-7f21-5c7c-9c22-4dd3d33252fc",
+                    "contextCategory": "NHC",
+                    "contextParams": {
+                      "chat_flow_key": "NHC_0032_report_an_issue_card_transaction",
+                      "card-dispute-txId": "0d33a783-7f21-5c7c-9c22-4dd3d33252fc"
+                    }
+                  },
+                  "type": "customerSupportChat"
+                },
+                "type": "listItemAvatarDefault"
+              },
+              "style": "highlighted"
+            }
+          ],
+          "type": "table"
+        }
+      ]
+    },
+    "has_docs": false
+  },
+  {
+    "id": "10e405e1-7fbe-477b-bbe0-6f98df77eac9",
+    "timestamp": "2025-03-02T00:00:00.000+0000",
+    "title": "Zinsen",
+    "icon": "logos/timeline_interest_new/v2",
+    "badge": null,
+    "subtitle": "2.75 % p.a.",
+    "amount": {
+      "currency": "EUR",
+      "value": 1.0,
+      "fractionDigits": 2
+    },
+    "subAmount": null,
+    "status": "EXECUTED",
+    "action": {
+      "type": "timelineDetail",
+      "payload": "10e405e1-7fbe-477b-bbe0-6f98df77eac9"
+    },
+    "eventType": "INTEREST_PAYOUT",
+    "cashAccountNumber": null,
+    "hidden": false,
+    "deleted": false,
+    "source": "timelineTransaction",
+    "details": {
+      "id": "10e405e1-7fbe-477b-bbe0-6f98df77eac9",
+      "sections": [
+        {
+          "title": "Du hast €1.00 erhalten",
+          "data": {
+            "icon": "logos/timeline_interest_new/v2",
+            "timestamp": "2025-02-20T00:00:00.000+01:00",
+            "status": "executed"
+          },
+          "type": "header"
+        },
+        {
+          "title": "Übersicht",
+          "data": [
+            {
+              "title": "Status",
+              "style": "plain",
+              "detail": {
+                "text": "Ausgeführt",
+                "functionalStyle": "EXECUTED",
+                "type": "status"
+              }
+            },
+            {
+              "title": "Durchschnittssaldo",
+              "style": "plain",
+              "detail": {
+                "text": "€466.05",
+                "type": "text"
+              }
+            },
+            {
+              "title": "Jährliche Rate",
+              "style": "plain",
+              "detail": {
+                "text": "2.75 %",
+                "type": "text"
+              }
+            },
+            {
+              "title": "Asset",
+              "style": "plain",
+              "detail": {
+                "text": "Cash",
+                "type": "text"
+              }
+            }
+          ],
+          "type": "table"
+        },
+        {
+          "title": "Status",
+          "steps": [
+            {
+              "leading": {
+                "avatar": {
+                  "status": "completed",
+                  "type": "bullet"
+                },
+                "connection": {
+                  "order": "first"
+                }
+              },
+              "content": {
+                "title": "Zinsberechnung",
+                "subtitle": null,
+                "timestamp": "2025-03-02T00:00:00.000+01:00",
+                "cta": null
+              }
+            },
+            {
+              "leading": {
+                "avatar": {
+                  "status": "completed",
+                  "type": "bullet"
+                },
+                "connection": {
+                  "order": "last"
+                }
+              },
+              "content": {
+                "title": "Zinszahlung",
+                "subtitle": null,
+                "timestamp": "2025-03-02T00:00:00.000+01:00",
+                "cta": null
+              }
+            }
+          ],
+          "type": "steps"
+        },
+        {
+          "title": "Transaktion",
+          "data": [
+            {
+              "title": "Angesammelt",
+              "style": "plain",
+              "detail": {
+                "text": "€1.00",
+                "type": "text"
+              }
+            },
+            {
+              "title": "Steuern",
+              "style": "plain",
+              "detail": {
+                "text": "€0.00",
+                "type": "text"
+              }
+            },
+            {
+              "title": "Gesamt",
+              "style": "plain",
+              "detail": {
+                "text": "€1.00",
+                "type": "text"
+              }
+            }
+          ],
+          "type": "table"
+        },
+        {
+          "title": "Dokument",
+          "data": [
+            {
+              "title": "Abrechnung",
+              "action": {
+                "payload": "https://traderepublic-postbox-platform-production.s3.eu-central-1.amazonaws.com/timeline/postbox/2025/3/1/1d5624be/pb1740799610290874828401719116.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGwaDGV1LWNlbnRyYWwtMSJHMEUCIQCD7pI5KrFAZC%2FpM%2BJjcXoQ98UEK1fmzBUNlTty6hjsFAIgWKmfqVgbKpxlTlqtb8ex%2BV7Y4inKo27mQo04p1vEe%2BkqnAUIpf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgw4MzAwMDY0NDIyNjAiDKeWIsfmtP7DkgBrrCrwBJzzGKV6EMeo61raiGokDaKvVRFhsWrlDFd9MrKUHtrmwyz079tr2NfN3QcVY%2FwJZU5YYrz06YJ0X%2BdMVREw0KLsEyi027WKXr3QXq9I3ykRUB4Ei6Kd5EnN7vHsD4E0qtfbkuxMZFCEGxPNWFZTxCBOftd3wLF1S%2BNRaPy179XnOGIlD2Q6XgngXOZC9AuD9PelgVdsuhzO7u%2BOou4DBnb%2BfxUmG4WH9bcFb85aT3XvjDSabATzyw3K%2BCPV%2Bid5UFuXohYej1zf%2FQr3JpM7fUQMjO%2FlTR2Rl1QYmlO6eRh2pzA3H57%2BySaGA3BHBCD5HOVeWXUhlxWhMVF4t1NBPPBft0NTCYXSfVdYyD2lE8av77F9UUA0p0E7mvtA%2F9noxeea%2BCulhs3R5uyTAfjavPhhvv71l36wGTB8HsfBKXN7py5CDqTMDd9%2F83M1henxQns%2FESv1v4CanRql7LPMnhZArlZ%2F7dbR%2BVZOV7l09QYeeKRIFRl%2FjcXSPwrUuRRgyiypRodc04bLan8m8Q3KmUHpyqKwyzHzc47Y3WukL1LIiJl%2BsUwXl7rRYxLQlv8xsClUsVxWkjKzqWz92Jpj%2FMbIhBwAD%2Bzj%2B0lYROCQb%2BAMHTY5BFCtOdge10e5TpX4hK9tw%2FCw5ZI9SU6jCFlho1XdTToxsauByRKl0snKTBuTzmV6m0y%2B7s68k9I%2FL1Jrv%2FETpP8Z%2BxzDexOmpG4Hl77l4FuA1agBUzvsDtwEXMksi2R3mfw1B%2FyitZLMcwHkOWiXhRup4c542ZXtf3%2Fob9v9ihNTK%2BTcJ7K5aRxbwiNn29hWnGDLT6RDNt7v%2FCiGgDDq9Yu%2BBjqbAbVah4dMWrNQU3ad82jMmcphPwGrRtuO0d5D988rTVrLYf1Bem6XZjp9rtG4v5%2BixP%2FllgJISzNhN68H1NTLJ8V2Dd1hXi6lckqMzAVGdPi01cCPDOfN%2B0mhjan81FhV%2F7fwX6bjptoZtKW95%2F0B7hY%2FHN6bhJrqu2yEfH5B60Ts%2FHJta2dfiF51cdoQ%2BPWZ7fCMyCNGXkr2tLrv&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20250301T125101Z&X-Amz-SignedHeaders=host&X-Amz-Expires=900&X-Amz-Credential=ASIA4CQB5HEKB7HFPM7B%2F20250301%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Signature=ab22f401f149627ac82c6a988c6e33e87a222461d92ad01089c6a745a6fc61cd",
+                "type": "browserModal"
+              },
+              "id": "ec84f97e-51da-4bb0-aa1d-0e5d3fc55b63",
+              "postboxType": "INTEREST_PAYOUT_INVOICE",
+              "local_filepath": "tmp/Abrechnung/2025-03-02 Abrechnung - Zinsen.pdf"
+            }
+          ],
+          "type": "documents"
+        },
+        {
+          "title": "",
+          "data": [
+            {
+              "title": "",
+              "style": "plain",
+              "detail": {
+                "icon": "",
+                "style": "highlighted",
+                "action": {
+                  "payload": {
+                    "contextParams": {
+                      "timelineEventId": "10e405e1-7fbe-477b-bbe0-6f98df77eac9",
+                      "chat_flow_key": "NHC_0020_interest_past_interest_payout"
+                    },
+                    "contextCategory": "NHC"
+                  },
+                  "type": "customerSupportChat"
+                },
+                "type": "listItemAvatarDefault"
+              }
+            }
+          ],
+          "type": "table"
+        }
+      ]
+    },
+    "has_docs": true
+  },
+  {
+    "id": "c6121d2e-cade-423f-9878-a7c1f7a33e9b",
+    "timestamp": "2025-03-03T00:00:00.000+0000",
+    "title": "Zinsen",
+    "icon": "logos/timeline_interest_new/v2",
+    "badge": null,
+    "subtitle": "2,75% p.a.",
+    "amount": {
+      "currency": "EUR",
+      "value": 1.00,
+      "fractionDigits": 2
+    },
+    "subAmount": null,
+    "status": "EXECUTED",
+    "action": {
+      "type": "timelineDetail",
+      "payload": "c6121d2e-cade-423f-9878-a7c1f7a33e9b"
+    },
+    "eventType": "INTEREST_PAYOUT_CREATED",
+    "cashAccountNumber": null,
+    "hidden": false,
+    "deleted": false,
+    "source": "timelineTransaction",
+    "details": {
+      "id": "c6121d2e-cade-423f-9878-a7c1f7a33e9b",
+      "sections": [
+        {
+          "title": "Du hast 1,00 EUR erhalten",
+          "data": {
+            "icon": "logos/timeline_interest_new/v2",
+            "subtitleText": null,
+            "timestamp": "2025-03-03T00:00:00.000+0000",
+            "status": "executed"
+          },
+          "action": null,
+          "type": "header"
+        },
+        {
+          "title": "Übersicht",
+          "data": [
+            {
+              "title": "Status",
+              "detail": {
+                "text": "Abgeschlossen",
+                "functionalStyle": "EXECUTED",
+                "type": "status"
+              },
+              "style": "plain"
+            },
+            {
+              "title": "Durchschnittssaldo",
+              "detail": {
+                "text": "1.000,00 €",
+                "trend": null,
+                "action": null,
+                "displayValue": null,
+                "type": "text"
+              },
+              "style": "plain"
+            },
+            {
+              "title": "Jahressatz",
+              "detail": {
+                "text": "2.75 %",
+                "trend": null,
+                "action": null,
+                "displayValue": null,
+                "type": "text"
+              },
+              "style": "plain"
+            },
+            {
+              "title": "Vermögenswert",
+              "detail": {
+                "text": "Guthaben",
+                "trend": null,
+                "action": null,
+                "displayValue": null,
+                "type": "text"
+              },
+              "style": "plain"
+            }
+          ],
+          "action": null,
+          "type": "table"
+        },
+        {
+          "title": "Dokumente",
+          "data": [
+            {
+              "title": "Abrechnung",
+              "detail": "03.03.2025",
+              "action": {
+                "type": "browserModal",
+                "payload": "https://traderepublic-data-production.s3.eu-central-1.amazonaws.com/timeline/postbox/2025/3/3/c6121d2e/pd4386b78324e45549aa0.pdf?X-Amz-Security-Token=ABC123"
+              },
+              "id": "d4386b78-324e-4554-9aa0-ff1f3fca59aa",
+              "postboxType": "INTEREST_PAYOUT_INVOICE",
+              "local_filepath": "tmp/Zinsen/Abrechnung/2025-03-03 Abrechnung - Zinsen.pdf"
+            }
+          ],
+          "action": null,
+          "type": "documents"
+        },
+        {
+          "title": "",
+          "data": [
+            {
+              "title": "",
+              "detail": {
+                "icon": "",
+                "action": {
+                  "type": "customerSupportChat",
+                  "payload": {
+                    "contextParams": {
+                      "chat_flow_key": "NHC_0020_interest_past_interest_payout",
+                      "timelineEventId": "c6121d2e-cade-423f-9878-a7c1f7a33e9b",
+                      "interestPayoutId": "d4386b78-324e-4554-9aa0-ff1f3fca59aa"
+                    },
+                    "contextCategory": "NHC"
+                  }
+                },
+                "style": "highlighted",
+                "type": "listItemAvatarDefault"
+              },
+              "style": "plain"
+            }
+          ],
+          "action": null,
+          "type": "table"
+        }
+      ]
+    },
+    "has_docs": true
+  },
+  {
+    "id": "7678ce8a-0b13-479b-9677-a3374b6eab58",
+    "timestamp": "2025-03-04T00:00:00.000+0000",
+    "title": "Einzahlung",
+    "icon": "logos/bank_visa/v2",
+    "badge": null,
+    "subtitle": null,
+    "amount": {
+      "currency": "EUR",
+      "value": 100.0,
+      "fractionDigits": 2
+    },
+    "subAmount": null,
+    "status": "EXECUTED",
+    "action": {
+      "type": "timelineDetail",
+      "payload": "7678ce8a-0b13-479b-9677-a3374b6eab58"
+    },
+    "eventType": "PAYMENT_INBOUND_CREDIT_CARD",
+    "cashAccountNumber": null,
+    "hidden": false,
+    "deleted": false,
+    "source": "timelineTransaction",
+    "details": {
+      "id": "7678ce8a-0b13-479b-9677-a3374b6eab58",
+      "sections": [
+        {
+          "title": "Du hast 100,00 € über Kreditkarte hinzugefügt",
+          "data": {
+            "icon": "logos/bank_visa/v2",
+            "subtitleText": null,
+            "timestamp": "2025-03-04T00:00:00.000+0000",
+            "status": "executed"
+          },
+          "action": null,
+          "type": "header"
+        },
+        {
+          "title": "Übersicht",
+          "data": [
+            {
+              "title": "Status",
+              "detail": {
+                "text": "Completed",
+                "functionalStyle": "EXECUTED",
+                "type": "status"
+              },
+              "style": "plain"
+            },
+            {
+              "title": "Zahlung",
+              "detail": {
+                "text": "·· 4567",
+                "icon": "logos/bank_visa/v2",
+                "type": "iconWithText"
+              },
+              "style": "plain"
+            }
+          ],
+          "action": null,
+          "type": "table"
+        },
+        {
+          "title": "Transaktion",
+          "data": [
+            {
+              "title": "Gebühr",
+              "detail": {
+                "text": "0,00 €",
+                "trend": null,
+                "action": null,
+                "displayValue": null,
+                "type": "text"
+              },
+              "style": "plain"
+            },
+            {
+              "title": "Betrag",
+              "detail": {
+                "text": "100,00 €",
+                "trend": null,
+                "action": null,
+                "displayValue": null,
+                "type": "text"
+              },
+              "style": "highlighted"
+            }
+          ],
+          "action": null,
+          "type": "table"
+        },
+        {
+          "title": "Dokumente",
+          "data": [
+            {
+              "title": "Abrechnung Einzahlung",
+              "detail": "04.03.2025",
+              "action": {
+                "type": "browserModal",
+                "payload": "https://traderepublic-data-production.s3.eu-central-1.amazonaws.com/timeline/postbox/2025/3/4/b6859843/p40194578bda1d7084bf27789.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGwaDGV1LWNlbnRyYWwtMSJIMEYCIQDyez63mJFbaen3y%2FA84o3cKvoy1207ylcSOw1Q0VtnMwIhANlAwXtsamPexcWFyCyn0ud1YefLilv2O89%2F1vPFtQSqKowFCKX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQBBoMODMwMDA2NDQyMjYwIgxi%2FZL15jUUV%2FkmOg8q4ASn3pINyon3UfNnAsHqKHkPG2u5j8zfjDJNLMnkDiNIyf8BKv%2FwsVP6gyARnqD%2FJMs8ASUKNtu2IunM62s8RvNTDJDSkYvCHKEguqtXoH97HsPgLC19g9gGxXGqaGjMV%2B1BipnIYXUKgW3J0gM8p9DY8AuTyjn%2FiFJ5oKtDjRfeFF%2B09H%2F1gAh5CzZ3nvD%2FCOpdX5PMaodO2N9IseRoKVRq21Xe8QJLXAK3tHZGg8k4EsI30N4UP%2FlX8G4mQeqgdVWRgTOleAOZwCC7B48H0jKF6Tfsaophocwa0KoJx3F290hXBFB7XVuvijbfgZT%2BFK7uf%2FF2XIU05QMyveytzWREX%2BHKjSqJJSNpttK%2FS%2FUxDzPCGx%2FbTtgaVkDv0PZBkdIVcCA9BunqdxViAMzhNY5kCWoD2IaQjaaH%2F1FOcNuFAsdVqjkZ8%2FHwlBZbFABTiXXBTvBcE4azowX5vxaaLtQmsRlA8WlFW91fufu2ik0wDydPZOqHqAcaNAu3DjO1q3wkNmuOYdZKFjP5jn3SA2j%2B4waBJW%2BUcsUrMeZ6rgcjq5L6PGwr84Q0GC9pA7SOCsQItX9jNcx5C7wHDV7P44fLcPaYKA3KtHGx9CTS4j6gryymDPIrs%2FBXxbvplHiIlj64gL7xWddKlpAw%2BdynIizYb916WcJRVE5H1XBeT8HqEeqbszD1%2BQ%2BVQdmWi72rsQRYl7NYlil%2BF6F8korVTCOxTYfA6flWhMNIgO2DYJBL58sjPcwhRPzKhXfiIQ5YKjdm%2BcUTK%2BadSz%2B9sGbktHvu4q2D6FoRUlxqqyzfyDn%2BxTCB74u%2BBjqZAViDQwhRqKB7aMPohYHWoj2I%2BBDv9EWjPqyddyc5Cc02wGedJsklOTxeeThh17lOAq%2BOEF3UmGPIaFsgKN8FVjgCj7lKRXKuzyqmHQGH8mIW5XKnUgbkXyAF586Rns6H%2Fao4nscoa8SB6ognVSLRh50OKZ%2FhrapIjFj4NTVxjESFgoOCPUtnt7%2BgkE85tvo%2BA6j5TKWNzgm2Bg%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20250301T125101Z&X-Amz-SignedHeaders=host&X-Amz-Expires=900&X-Amz-Credential=ASIA4CQB5HEKC7EFC766%2F20250301%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Signature=ABC123"
+              },
+              "id": "5f0b1693-5490-4ecb-936b-70a2859df344",
+              "postboxType": "PAYMENT_INBOUND_INVOICE",
+              "local_filepath": "tmp/Abrechnung Einzahlung/2025-03-04 Abrechnung Einzahlung - Einzahlung.pdf"
+            }
+          ],
+          "action": null,
+          "type": "documents"
+        },
+        {
+          "title": "",
+          "data": [
+            {
+              "title": "",
+              "detail": {
+                "icon": "",
+                "action": {
+                  "type": "customerSupportChat",
+                  "payload": {
+                    "contextParams": {
+                      "chat_flow_key": "NHC_0024_deposit_report_an_issue",
+                      "timelineEventId": "7678ce8a-0b13-479b-9677-a3374b6eab58",
+                      "createdAt": "2025-03-04T00:00:00.000000Z",
+                      "amount": "100.000000",
+                      "currency": "EUR"
+                    },
+                    "contextCategory": "NHC"
+                  }
+                },
+                "style": "highlighted",
+                "type": "listItemAvatarDefault"
+              },
+              "style": "plain"
+            }
+          ],
+          "action": null,
+          "type": "table"
+        }
+      ]
+    },
+    "has_docs": true
+  },
+  {
+    "id": "3aa0db48-c17b-40ee-a83b-b44fe009efa8",
+    "timestamp": "2025-03-05T00:00:00.000+0000",
+    "title": "MSCI USA USD (Acc)",
+    "icon": "logos/IE0000000000/v2",
+    "badge": null,
+    "subtitle": "Sparplan ausgeführt",
+    "amount": {
+      "currency": "EUR",
+      "value": -39.999935,
+      "fractionDigits": 2
+    },
+    "subAmount": null,
+    "status": "EXECUTED",
+    "action": {
+      "type": "timelineDetail",
+      "payload": "3aa0db48-c17b-40ee-a83b-b44fe009efa8"
+    },
+    "eventType": "SAVINGS_PLAN_INVOICE_CREATED",
+    "cashAccountNumber": null,
+    "hidden": false,
+    "deleted": false,
+    "source": "timelineTransaction",
+    "details": {
+      "id": "3aa0db48-c17b-40ee-a83b-b44fe009efa8",
+      "sections": [
+        {
+          "title": "Du hast 40,00 € investiert",
+          "data": {
+            "icon": "logos/IE00B60SX170/v2",
+            "subtitleText": null,
+            "timestamp": "2025-03-05T00:00:00.000+0000",
+            "status": "executed"
+          },
+          "action": {
+            "type": "instrumentDetail",
+            "payload": "IE0000000000"
+          },
+          "type": "header"
+        },
+        {
+          "title": "Übersicht",
+          "data": [
+            {
+              "title": "Status",
+              "detail": {
+                "text": "Ausgeführt",
+                "functionalStyle": "EXECUTED",
+                "type": "status"
+              },
+              "style": "plain"
+            },
+            {
+              "title": "Orderart",
+              "detail": {
+                "text": "Sparplan",
+                "trend": null,
+                "action": null,
+                "displayValue": null,
+                "type": "text"
+              },
+              "style": "plain"
+            },
+            {
+              "title": "Asset",
+              "detail": {
+                "text": "MSCI USA USD (Acc)",
+                "trend": null,
+                "action": null,
+                "displayValue": null,
+                "type": "text"
+              },
+              "style": "plain"
+            },
+            {
+              "title": "Zahlung",
+              "detail": {
+                "text": "Guthaben",
+                "icon": "logos/bank_traderepublic/v2",
+                "type": "iconWithText"
+              },
+              "style": "plain"
+            }
+          ],
+          "action": null,
+          "type": "table"
+        },
+        {
+          "title": "Sparplan",
+          "data": [
+            {
+              "title": "",
+              "detail": {
+                "title": "MSCI USA USD (Acc)",
+                "timestamp": "2025-03-05T00:00:00.000Z",
+                "amount": "40,00 €",
+                "icon": "logos/IE0000000000/v2",
+                "status": "executed",
+                "action": {
+                  "type": "openSavingsPlanOverview",
+                  "payload": {
+                    "savingsPlanId": "703f9fdd-2947-4c95-b95f-7d3a99c7a326"
+                  }
+                },
+                "subtitle": "Monatlich",
+                "type": "embeddedTimelineItem"
+              },
+              "style": "plain"
+            }
+          ],
+          "action": null,
+          "type": "table"
+        },
+        {
+          "title": "Transaktion",
+          "data": [
+            {
+              "title": "Anteile",
+              "detail": {
+                "text": "0,23663",
+                "trend": null,
+                "action": null,
+                "displayValue": null,
+                "type": "text"
+              },
+              "style": "plain"
+            },
+            {
+              "title": "Anteilspreis",
+              "detail": {
+                "text": "169,04 €",
+                "trend": null,
+                "action": null,
+                "displayValue": null,
+                "type": "text"
+              },
+              "style": "plain"
+            },
+            {
+              "title": "Gebühr",
+              "detail": {
+                "text": "Gratis",
+                "trend": null,
+                "action": null,
+                "displayValue": null,
+                "type": "text"
+              },
+              "style": "plain"
+            },
+            {
+              "title": "Gesamt",
+              "detail": {
+                "text": "40,00 €",
+                "trend": null,
+                "action": null,
+                "displayValue": null,
+                "type": "text"
+              },
+              "style": "highlighted"
+            }
+          ],
+          "action": null,
+          "type": "table"
+        },
+        {
+          "title": "Dokumente",
+          "data": [
+            {
+              "title": "Abrechnung Ausführung",
+              "detail": "05.03.2025",
+              "action": {
+                "type": "browserModal",
+                "payload": "https://traderepublic-data-production.s3.eu-central-1.amazonaws.com/timeline/postbox/2025/2/3/1d5624be/pb17386185725244275148269763188.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEG0aDGV1LWNlbnRyYWwtMSJHMEUCIHoqLMpV2PG2pFEwDaS9uvtK7qU2k%2BR5uxLc8NZRLRsbAiEAov3DrhMseF46r%2BOfpXPhkJBVavjmy9N8ioycaT4bkzMqjAUIpv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgw4MzAwMDY0NDIyNjAiDI72aZblqfcD89A%2F0yrgBGIkqekLLiXojvATUCkDk3sgbCEoRE1CQntKeF8HaMIQe%2BfD%2FsUvP57HQxNGS38R1QcSF%2BgI9qyJDPgl89wkGIY2ByMBbsAg8COur1qihGSMjtg%2Bd19hVpcThDTcSg%2FqoEeqOdqhoRXzCubMt761M0N9PfOsbqvlvnZKr4TRuDm3KawNVfqAmYJ4iPLHzH2OBTfmATon8AoaSMDD%2BYRMmN3viHR113t5sWsAhVAiIIp%2B5e8fdhj5fM2Q4HOToGjYDEz8PaltnEv8Ox%2BBxgXIlFW4Z07TP3A1vmpgeoHY4gXw7f6m8AZCrxIn1M6tbPjRrghF1Q1huGdm1WFOCQZ%2FQY2VpcpJvagboGsayvMMFDl5%2BlpM%2FLT%2FOIBF4s2J%2BNuVGFI2%2B8rb0bBdXoWtYmSC4DtkgL3FEZ4QtxryVejXIWwXrFjVlfIPP%2FbE1EpDJ02i3udPS7Nyc7BDuKhPSD5buL%2FB40O9oMyUy8waQg%2Fe7CcFaG3ErD1vpD7arQ3GEUW%2Faa4VYhKLI7mtyGEEuiJlWu%2BEFQGwNjVrcZATffsxPtAZ5t3XysluK3606oUzpQFCF2rMXrVvItXeTKpeeO7ONrdfbFuGsxB%2FOImcflahyr7sftdWU1kEOb2G0LU6%2BTR5g%2BlSaG0lpR4%2FMqLbXsJFW4H%2B2GSzF3hMXjX%2Bm4IEXeROdIkS5Asa%2FZVOU%2BJQlc4kMio686xaxwo6YDDsk12P2ahSQOi58%2Fv7mrsALY%2BV5ZkkxNn%2FRiFI7bSjeghKm47xQg7MBL6FTouQjB5yeq3EW60r9%2BM%2Ben%2FsYdgmYihjYERjMN%2F8i74GOpoBTzWMGcJMEEFPLxrI%2FKrRw3Tcmd70MEp6TvQtjV3WF6dipDPqOvxnRLhkmJIbatO36yofbdT1f4n4hO9NCaz2eBX%2FWA2QLN1neweOtxf6SBBphhEyOUIHbC%2Fjja99DdaEE1LU0ZCA41OaeM9KgMj2entUpz2G6bmLZYYvRSV8Y96ksoruPtO3Xf57RDc0ibMJsLvW8DHl8rEKWw%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20250301T125101Z&X-Amz-SignedHeaders=host&X-Amz-Expires=900&X-Amz-Credential=ASIA4CQB5HEKPT6TGEWI%2F20250301%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Signature=8b38668ae18fd7805c62942febb308c1fbb7ebc5bc8ed2c0636be1813fb4bea5"
+              },
+              "id": "703f9fdd-2947-4c95-b95f-7d3a99c7a326",
+              "postboxType": "SAVINGS_PLAN_EXECUTED_V2",
+              "local_filepath": "tmp/Abrechnung Ausführung/2025-03-05 Abrechnung Ausführung - MSCI USA USD (Acc).pdf"
+            }
+          ],
+          "action": null,
+          "type": "documents"
+        },
+        {
+          "title": "",
+          "data": [
+            {
+              "title": "",
+              "detail": {
+                "icon": "",
+                "action": {
+                  "type": "customerSupportChat",
+                  "payload": {
+                    "contextParams": {
+                      "chat_flow_key": "NHC_0029_wealth_Failed_savings_plan_execution",
+                      "timelineEventId": "3aa0db48-c17b-40ee-a83b-b44fe009efa8",
+                      "primId": "N1234567890"
+                    },
+                    "contextCategory": "NHC"
+                  }
+                },
+                "style": "highlighted",
+                "type": "listItemAvatarDefault"
+              },
+              "style": "plain"
+            }
+          ],
+          "action": null,
+          "type": "table"
+        }
+      ]
+    },
+    "has_docs": true
+  },
+  {
+    "id": "4c42f4b7-3b9c-4966-b2b6-41def470a9f2",
+    "timestamp": "2025-03-06T00:00:00.000+0000",
+    "title": "MSCI USA USD (Acc)",
+    "icon": "logos/IE0000000000/v2",
+    "badge": null,
+    "subtitle": "Saveback",
+    "amount": {
+      "currency": "EUR",
+      "value": -15.00,
+      "fractionDigits": 2
+    },
+    "subAmount": null,
+    "status": "EXECUTED",
+    "action": {
+      "type": "timelineDetail",
+      "payload": "4c42f4b7-3b9c-4966-b2b6-41def470a9f2"
+    },
+    "eventType": "benefits_saveback_execution",
+    "cashAccountNumber": null,
+    "hidden": false,
+    "deleted": false,
+    "source": "timelineTransaction",
+    "details": {
+      "id": "4c42f4b7-3b9c-4966-b2b6-41def470a9f2",
+      "sections": [
+        {
+          "title": "Dein Bonus von 15,00 € wurde investiert",
+          "data": {
+            "icon": "logos/IE0000000000/v2",
+            "timestamp": "2025-03-06T00:00:00.000+0000",
+            "status": "executed"
+          },
+          "action": {
+            "payload": "IE0000000000",
+            "type": "instrumentDetail"
+          },
+          "type": "header"
+        },
+        {
+          "title": "Übersicht",
+          "data": [
+            {
+              "title": "Status",
+              "detail": {
+                "text": "Ausgeführt",
+                "functionalStyle": "EXECUTED",
+                "type": "status"
+              },
+              "style": "plain"
+            },
+            {
+              "title": "Ordertyp",
+              "detail": {
+                "text": "Saveback",
+                "type": "text"
+              },
+              "style": "plain"
+            },
+            {
+              "title": "Asset",
+              "detail": {
+                "text": "MSCI USA USD (Acc)",
+                "type": "text"
+              },
+              "style": "plain"
+            }
+          ],
+          "type": "table"
+        },
+        {
+          "title": "Transaktion",
+          "data": [
+            {
+              "title": "Aktien",
+              "detail": {
+                "text": "0.035908",
+                "type": "text"
+              },
+              "style": "plain"
+            },
+            {
+              "title": "Aktienkurs",
+              "detail": {
+                "text": "169,04 €",
+                "type": "text"
+              },
+              "style": "plain"
+            },
+            {
+              "title": "Gebühr",
+              "detail": {
+                "text": "Kostenlos",
+                "type": "text"
+              },
+              "style": "plain"
+            },
+            {
+              "title": "Gesamt",
+              "detail": {
+                "text": "15,00 €",
+                "type": "text"
+              },
+              "style": "highlighted"
+            }
+          ],
+          "type": "table"
+        },
+        {
+          "title": "Dokumente",
+          "data": [
+            {
+              "id": "697fddb8-9a31-4103-9518-4f6e249dcece",
+              "title": "Abrechnung Ausführung",
+              "action": {
+                "payload": "https://traderepublic-data-production.s3.eu-central-1.amazonaws.com/timeline/postbox/2025/3/6/697fddb8/p9a31410395184f6e249dcece.pdf?X-Amz-Security-Token=ABC123",
+                "type": "browserModal"
+              },
+              "postboxType": "SAVINGS_PLAN_EXECUTED_V2",
+              "local_filepath": "tmp/Saveback/Abrechnung Ausführung/2025-03-06 Abrechnung Ausführung - MSCI USA USD (Acc).pdf"
+            },
+            {
+              "id": "f4c6aa36-5d08-41ff-a129-d96e042d853a",
+              "title": "Kosteninformation",
+              "action": {
+                "payload": "https://traderepublic-data-production.s3.eu-central-1.amazonaws.com/timeline/postbox/2025/3/6/f4c6aa36/p5d0841ffa129d96e042d853a.pdf?X-Amz-Security-Token=ABC123",
+                "type": "browserModal"
+              },
+              "postboxType": "COSTS_INFO_SAVINGS_PLAN_V2",
+              "local_filepath": "tmp/Saveback/Kosteninformation/2025-03-06 Kosteninformation - MSCI USA USD (Acc).pdf"
+            }
+          ],
+          "type": "documents"
+        }
+      ]
+    },
+    "has_docs": true
+  },
+  {
+    "id": "bd0ea606-3087-470c-aa7d-5b8bf8817399",
+    "timestamp": "2025-03-07T00:00:00.000+0000",
+    "title": "MSCI USA USD (Dist)",
+    "icon": "logos/IE0000000000/v2",
+    "badge": null,
+    "subtitle": "Bardividende",
+    "amount": {
+      "currency": "EUR",
+      "value": 0.15,
+      "fractionDigits": 2
+    },
+    "subAmount": null,
+    "status": "EXECUTED",
+    "action": {
+      "type": "timelineDetail",
+      "payload": "bd0ea606-3087-470c-aa7d-5b8bf8817399"
+    },
+    "eventType": "ssp_corporate_action_invoice_cash",
+    "cashAccountNumber": "0000000000",
+    "hidden": false,
+    "deleted": false,
+    "source": "timelineTransaction",
+    "details": {
+      "id": "bd0ea606-3087-470c-aa7d-5b8bf8817399",
+      "sections": [
+        {
+          "title": "Du hast 0,15 € erhalten",
+          "data": {
+            "icon": "logos/IE0000000000/v2",
+            "subtitleText": null,
+            "timestamp": "2025-03-07T00:00:00.000+0000",
+            "status": "executed"
+          },
+          "action": null,
+          "type": "header"
+        },
+        {
+          "title": "Übersicht",
+          "data": [
+            {
+              "title": "Status",
+              "detail": {
+                "text": "Ausgeführt",
+                "functionalStyle": "EXECUTED",
+                "type": "status"
+              },
+              "style": "plain"
+            },
+            {
+              "title": "Event",
+              "detail": {
+                "text": "Bardividende",
+                "trend": null,
+                "action": null,
+                "displayValue": null,
+                "type": "text"
+              },
+              "style": "plain"
+            },
+            {
+              "title": "Wertpapier",
+              "detail": {
+                "text": "MSCI USA USD (Dist)",
+                "trend": null,
+                "action": null,
+                "displayValue": null,
+                "type": "text"
+              },
+              "style": "plain"
+            }
+          ],
+          "action": null,
+          "type": "table"
+        },
+        {
+          "title": "Geschäft",
+          "data": [
+            {
+              "title": "Aktien",
+              "detail": {
+                "text": "1.001246",
+                "trend": null,
+                "action": null,
+                "displayValue": null,
+                "type": "text"
+              },
+              "style": "plain"
+            },
+            {
+              "title": "Dividende pro Aktie",
+              "detail": {
+                "text": "0,16 $",
+                "trend": null,
+                "action": null,
+                "displayValue": null,
+                "type": "text"
+              },
+              "style": "plain"
+            },
+            {
+              "title": "Steuer",
+              "detail": {
+                "text": "0,00 €",
+                "trend": null,
+                "action": null,
+                "displayValue": null,
+                "type": "text"
+              },
+              "style": "plain"
+            },
+            {
+              "title": "Gesamt",
+              "detail": {
+                "text": "0,15 €",
+                "trend": null,
+                "action": null,
+                "displayValue": null,
+                "type": "text"
+              },
+              "style": "plain"
+            }
+          ],
+          "action": null,
+          "type": "table"
+        },
+        {
+          "title": "Dokumente",
+          "data": [
+            {
+              "title": "Dokumente",
+              "detail": "07.03.2025",
+              "action": {
+                "type": "browserModal",
+                "payload": "https://traderepublic-postbox-platform-production.s3.eu-central-1.amazonaws.com/timeline/postbox/2025/3/7/1addb054/p2dfe4cc1ad29f49f661dd87c.pdf?X-Amz-Security-Token=ABC123"
+              },
+              "id": "1addb054-2dfe-4cc1-ad29-f49f661dd87c",
+              "postboxType": "CA_INCOME_INVOICE",
+              "local_filepath": "tmp/Dividende/Dokumente/2025-03-207 Dokumente - MSCI USA USD (Dist).pdf"
+            }
+          ],
+          "action": null,
+          "type": "documents"
+        },
+        {
+          "title": "",
+          "data": [
+            {
+              "title": "",
+              "detail": {
+                "icon": "common_empty_string",
+                "action": {
+                  "type": "customerSupportChat",
+                  "payload": {
+                    "contextParams": {
+                      "timelineEventId": "bd0ea606-3087-470c-aa7d-5b8bf8817399",
+                      "chat_flow_key": "NHC_0029_wealth_general_question_dividends"
+                    },
+                    "contextCategory": "NHC"
+                  }
+                },
+                "style": "highlighted",
+                "type": "listItemAvatarDefault"
+              },
+              "style": "highlighted"
+            }
+          ],
+          "action": null,
+          "type": "table"
+        }
+      ]
+    },
+    "has_docs": true
+  }
+]
