@@ -23,7 +23,7 @@ pip install .
 
 ## Usage
 
-This plugin will accept either a `transactions.csv`` or `all_events.json`
+This plugin will accept either a `transactions.csv` or `all_events.json`
 from `pytr`. The JSON file provides more information, like the other
 account number for bank transfers, or the exchange rate for FX
 transactions. But the CSV file is easier to filter by date since `pytr`
